@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai wala</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Indian Chai Wala</h1>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="todo.html">To-Do List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Where Every Sip Tells a Story</p>
+
+           <p> At Indian Chai Wala, we are passionate about delivering the finest tea experiences right to your doorstep. Our curated collection celebrates the art of tea-making, blending tradition with innovation to suit every palate.</p>
+    </section>
+
+
+ 
+    
+
+    <section id="products" class="content-section">
+        <h2>Our Specials</h2>
+        <div id="filters">
+            <label for="flavorFilter">Filter by flavor:</label>
+            <select id="flavorFilter">
+                <option value="all">All</option>
+                <option value="Elachi Chai">Elachi Chai</option>
+                <option value="Masala Tea">Masala Tea</option>
+                <option value="Classic Chai">Classic Chai</option>
+                <option value="Ginger Tea">Ginger Tea</option>
+                <option value="Tandoori Chai">Tandoori Chai</option>
+            </select>
+    
+            <label for="sortPrice">Sort by Price:</label>
+            <select id="sortPrice">
+                <option value="default">Default</option>
+                <option value="low-to-high">Low to High</option>
+                <option value="high-to-low">High to Low</option>
+            </select>
+    
+            <label for="sortRating">Sort by Rating:</label>
+            <select id="sortRating">
+                <option value="default">Default</option>
+                <option value="high-to-low">Highest to Lowest</option>
+                <option value="low-to-high">Lowest to Highest</option>
+
+            </select>
+        </div>
+        <div id="product-list"></div>
+    </section>
+    
+    
+
+
+
+
+    <footer>
+        <p>&copy; 2024 Indain Chai Wala Website</p>
+    </footer>
+
+    <script src="product.js"></script>
+</body>
+</html>

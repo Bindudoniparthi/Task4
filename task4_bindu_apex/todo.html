@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Chai Wala Order - To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Indian Chai Wala Order To-Do List</h1>
+        <nav>
+            <ul>
+                <li><a href="#list">List</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="list">
+        <input type="text" id="chocolate-item" placeholder="Add your chai" />
+        <button onclick="addItem()">Add</button>
+        <ul id="todo-list"></ul>
+    </section>
+
+
+    <section id="reviews" class="content-section">
+        <h2>Customer Reviews</h2>
+        <div id="review-list">
+            <!-- Customer reviews will be inserted here by JavaScript -->
+        </div>
+        <button id="add-review">Add a Random Review</button>
+    </section>
+
+
+
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+
+
+    <footer>
+        <p>&copy; 2024 Indian Chai Wala Website</p>
+    </footer>
+
+    <script src="todo.js"></script>
+</body>
+</html>
